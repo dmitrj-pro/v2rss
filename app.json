@@ -1,0 +1,16 @@
+{
+  "name": "nginx-v2ray-shadowsocks",
+  "description": "Deploy Nginx + V2Ray + ShadowSocks to Heroku as a SOCKS5 proxy.",
+  "stack": "container",
+  "env": {
+    "ShadowSocksPassword": {
+      "description": "Password for ShadowSocks"
+    },
+	"ShadowSocksMethod": {
+      "description": "Encryption method for ShadowSocks (Support AEAD_AES_128_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305)"
+    },
+	"V2RayPath": {
+      "description": "Path for V2Ray (Example /v2ray)"
+    }
+  }
+} 
