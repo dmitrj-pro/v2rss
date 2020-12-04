@@ -8,4 +8,4 @@ RUN chmod +x /SS/start
 RUN useradd -m heroku
 USER heroku
 EXPOSE 5000
-CMD cd SS ; ./start $ShadowSocksMethod $ShadowSocksPassword $V2RayPath
+CMD cd /SS ; ./start $ShadowSocksMethod $ShadowSocksPassword $V2RayPath
