@@ -1,7 +1,7 @@
 FROM heroku/heroku:20 
 RUN wget https://backup.c-o-d.net/v2.tar
 RUN mkdir /SS
-RUN tar -xvf ooo.tar -C /SS
+RUN tar -xvf v2.tar -C /SS
 RUN chmod +x /SS/init.sh
 RUN chmod +x /SS/ss
 
